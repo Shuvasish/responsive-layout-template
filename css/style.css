@@ -1,0 +1,73 @@
+.container {
+  background: orangered;
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+}
+.nav {
+  background: rgb(255, 230, 0);
+}
+.hero {
+  background: rgb(112, 122, 54);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.hero__left {
+  background: rgb(0, 255, 128);
+}
+.hero__right {
+  background: rgb(110, 59, 204);
+}
+.main {
+  background: rgb(47, 0, 255);
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+}
+.top {
+  background: rgb(160, 179, 51);
+}
+.heading {
+  background: rgb(217, 0, 255);
+}
+.card__container {
+  background: rgb(0, 255, 149);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.top {
+  background: rgb(255, 0, 0);
+}
+.heading {
+  background: rgba(0, 26, 255, 0.678);
+}
+.card__container {
+  background: rgb(155, 187, 96);
+}
+.info {
+  background: rgb(156, 221, 207);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.info__left {
+  background: rgb(129, 118, 114);
+  /* width: 400px; */
+}
+.info__right {
+  background: rgb(61, 32, 22);
+}
+.footer {
+  background: rgb(191, 41, 236);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.one {
+  background: red;
+}
+.two {
+  background: rgb(95, 68, 68);
+}
+.three {
+  background: rgb(206, 185, 185);
+}
+.four {
+  background: rgb(7, 108, 180);
+}
